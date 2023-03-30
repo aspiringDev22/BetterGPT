@@ -8,7 +8,7 @@ const App = () => {
     const [storedVal,setStoredVal] = useState([])
 
     const configuration = new Configuration({
-        apiKey:"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",
+        apiKey:"Enter API KEY",
         // apiKey:process.env.REACT_APP_OPENAI_API_KEY,
     })
     const openai = new OpenAIApi(configuration);
